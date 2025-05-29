@@ -77,6 +77,8 @@ This repository is intended for educational purposes and contributions. Whether 
 - 🧑‍💼 **Owner Address**: `'ST8XXC6QZ6RJ390F7J7VZEX9S8Q3NF3E3K842BK3` *(Replace with your actual address)*
 - 🔍 **Explorer**: [Stacks Testnet Explorer](https://explorer.stacks.co/?chain=testnet)
 - 🔐 **Wallet**: Use [Hiro Wallet](https://www.hiro.so/wallet) to interact
+- Deploye Image in Testnet
+- 
 
 ---
 
