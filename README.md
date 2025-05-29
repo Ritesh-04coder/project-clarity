@@ -80,7 +80,7 @@ This repository is intended for educational purposes and contributions. Whether 
 - 🔍 **Explorer Link**: [View on Stacks Explorer](https://explorer.stacks.co/?chain=testnet)
 - 🖼️ **Deployment Screenshot**:
 
-![Stacks Testnet Deployment](![Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/cf01c3d4-9f64-40fa-b3a6-9bdb0c5a4650))
+Stacks Testnet Deployment[Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/cf01c3d4-9f64-40fa-b3a6-9bdb0c5a4650)
 
 
 ---
