@@ -51,10 +51,8 @@ The goal of Simple Token is to provide a clean, minimalistic, yet powerful templ
 ```
 ST8XXC6QZ6RJ390F7J7VZEX9S8Q3NF3E3K842BK3.token_clar
 ```
-<div align="center">
-  <img src="![Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/0cf94227-7bb2-47ca-8933-fda5c6e1c8ba)
-" alt="Contract Deployment" width="700">
-</div>
+![Contract Deployment Screenshot](![Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/06187d3b-b8bb-4237-8a93-ffd6611d9331)
+
 
 ### 📋 Contract Specifications
 
