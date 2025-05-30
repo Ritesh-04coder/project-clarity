@@ -1,7 +1,16 @@
 
 # 🔐 Simple Token Transfer Contract on Stacks Blockchain
+📄 Project Overview
+This project introduces a carefully designed fungible token contract named Simple Token (SIMPLE), implemented using the Clarity smart contract language on the Stacks blockchain. The contract complies with the SIP-010 token standard and supports a wide range of core token operations. These include initializing the token with an initial supply (restricted to the contract owner), transferring tokens with optional memos for added context, minting new tokens (owner-only), and burning tokens by their holders. In addition to fungible token functionality, the contract allows users to deposit STX and tracks deposit balances.
 
-This project showcases a **Clarity smart contract** that implements a simple token transfer system, built and deployed on the **Stacks blockchain Testnet**. It allows minting, transferring, and balance tracking for a custom token.
+To maintain transparency and control, it exposes various read-only functions such as get-name, get-symbol, get-decimals, get-total-supply, and get-balance. Security and correctness are enforced through strict permission checks, with custom error codes like u100 (owner-only), u101 (not-token-owner), and u103 (invalid-amount) to prevent unauthorized or invalid actions. This ensures that the deployer maintains control over sensitive operations while still enabling a flexible and decentralized token experience.
+
+🧪 Testing and Simulations
+To ensure reliability and correctness, this project includes a comprehensive test suite written in JavaScript using the vitest testing framework, integrated with Clarinet’s Simnet local blockchain environment. These tests thoroughly simulate all possible interactions with the smart contract, covering everything from initialization and token transfers to minting, burning, and STX deposits.
+
+The test suite rigorously verifies expected behaviors and edge cases, including invalid token transfers (e.g., insufficient balance), unauthorized minting attempts, and zero-amount operations. Each function is tested against its access restrictions and logic correctness, ensuring that the contract responds with proper Clarity ok or err results in all cases.
+
+This robust test-driven approach not only validates that the contract behaves as intended but also ensures that it remains secure, predictable, and maintainable in production deployments. By providing strong guarantees through unit testing, this project aims to uphold the highest standards of smart contract engineering on the Stacks blockchain.
 
 This repository is intended for educational purposes and contributions. Whether you're learning Clarity, exploring the Stacks ecosystem, or contributing to open-source Web3 projects — you're welcome here!
 
