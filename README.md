@@ -101,7 +101,7 @@ ST8XXC6QZ6RJ390F7J7VZEX9S8Q3NF3E3K842BK3.token_clar
 brew install clarinet
 
 # Clone repository
-git clone https://github.com/yourusername/simple-token.git
+git clone https://github.com/Ritesh-04coder/project-clarity.git
 cd simple-token
 
 # Install dependencies
@@ -114,7 +114,7 @@ npm install
 choco install clarinet
 
 # Clone repository
-git clone https://github.com/yourusername/simple-token.git
+git clone https://github.com/Ritesh-04coder/project-clarity.git
 cd simple-token
 
 # Install dependencies
@@ -128,7 +128,7 @@ curl -L https://github.com/hirosystems/clarinet/releases/latest/download/clarine
 sudo mv clarinet /usr/local/bin/
 
 # Clone repository
-git clone https://github.com/yourusername/simple-token.git
+git clone https://github.com/Ritesh-04coder/project-clarity.git
 cd simple-token
 
 # Install dependencies
