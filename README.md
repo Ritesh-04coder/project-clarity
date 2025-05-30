@@ -33,7 +33,7 @@ This repository is intended for educational purposes and contributions. Whether 
 
 ## 🧱 Smart Contract – Clarity
 
-```clojure
+```
 (define-map balances (principal) (uint))
 
 (define-constant token-name "MyToken")
@@ -75,34 +75,26 @@ This repository is intended for educational purposes and contributions. Whether 
 
 - 🌐 **Network**: Stacks Blockchain Testnet
 - 🧑‍💼 **Owner Address**: `'ST8XXC6QZ6RJ390F7J7VZEX9S8Q3NF3E3K842BK3`
-- 🧾 **Contract Name**: `token_clar`
-- 🧠 **Deployed Using**: Hiro Wallet + Clarinet
-- 🔍 **Explorer Link**: [View on Stacks Explorer](https://explorer.stacks.co/?chain=testnet)
-- 🖼️ **Deployment Screenshot**:
-
-[Stacks Testnet Deployment](![Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/b4c9e709-3a12-465d-ac5a-12410c4d83da)
-
-
-
+- 🔍 **Explorer**: [Stacks Testnet Explorer](https://explorer.stacks.co/?chain=testnet)
+- 👛 **Wallet Used**: [Leather Wallet](https://leather.io)
+- [Stacks Testnet Deployment](![Screenshot 2025-05-29 181828](https://github.com/user-attachments/assets/b4c9e709-3a12-465d-ac5a-12410c4d83da)
 
 ---
 
 ## 🧪 Contract Interactions
 
-Use the following sample contract calls to interact with the deployed contract:
-
 ### ➕ Mint Tokens (Owner Only)
-```clojure
+```
 (contract-call? .your-contract mint 'ST...recipient u1000)
 ```
 
 ### 🔁 Transfer Tokens
-```clojure
+```
 (contract-call? .your-contract transfer 'ST...recipient u100)
 ```
 
 ### 📊 Check Balance
-```clojure
+```
 (contract-call? .your-contract get-balance 'ST...user)
 ```
 
@@ -119,14 +111,14 @@ Use the following sample contract calls to interact with the deployed contract:
 
 ## 🧰 Tech Stack
 
-| Tool          | Purpose                                      |
-|---------------|----------------------------------------------|
-| **Clarity**   | Smart contract language for Stacks           |
-| **Clarinet**  | Dev tool for building/testing Stacks contracts |
-| **Stacks**    | Blockchain for smart contracts and Bitcoin layers |
-| **Hiro Wallet** | Web3 wallet to interact with contracts       |
-| **Vitest**    | Unit testing framework                        |
-| *(Frontend coming soon)* | You’re welcome to contribute!     |
+| Tool            | Purpose                                       |
+|------------------|-----------------------------------------------|
+| **Clarity**      | Smart contract language for Stacks            |
+| **Clarinet**     | Dev tool for building/testing Stacks contracts |
+| **Stacks**       | Blockchain for smart contracts and Bitcoin layers |
+| **Leather Wallet** | Web3 wallet to interact with contracts       |
+| **Vitest**       | Unit testing framework                         |
+| *(Frontend coming soon)* | You’re welcome to contribute!      |
 
 ---
 
@@ -137,11 +129,11 @@ Use the following sample contract calls to interact with the deployed contract:
 - [Node.js](https://nodejs.org/)
 - [Clarinet](https://docs.hiro.so/clarinet/installation)
 - [Rust](https://www.rust-lang.org/)
-- [Hiro Wallet](https://www.hiro.so/wallet)
+- [Leather Wallet](https://leather.io)
 
 ### 🔧 Setup
 
-```bash
+```
 git clone https://github.com/Ritesh-04coder/simple-token-transfer-contract.git
 cd simple-token-transfer-contract
 npm install
@@ -149,7 +141,7 @@ npm install
 
 ### 🧪 Run Tests
 
-```bash
+```
 npm test
 ```
 
@@ -162,21 +154,13 @@ A frontend interface is planned and contributions are encouraged! You could use:
 - [Stacks.js](https://github.com/hirosystems/stacks.js)
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
-- Hiro Wallet SDK for login & transactions
+- Leather Wallet SDK for login & transactions
 
 ---
 
 ## 🙌 Contributing
 
 Pull requests, suggestions, and improvements are very welcome.
-
-### To Contribute:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feat/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add awesome feature'`)
-4. Push to the branch (`git push origin feat/amazing-feature`)
-5. Open a pull request!
 
 ---
 
@@ -186,14 +170,10 @@ Pull requests, suggestions, and improvements are very welcome.
 - 📘 [Clarinet Guide](https://docs.hiro.so/clarinet/introduction)
 - 🔐 [Stacks.js](https://github.com/hirosystems/stacks.js)
 - 🌐 [Stacks Explorer (Testnet)](https://explorer.stacks.co/?chain=testnet)
-- 💼 [Hiro Wallet](https://www.hiro.so/wallet)
+- 💼 [Leather Wallet](https://leather.io)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. Feel free to fork, learn, and build with it!
-
----
-
-> 🛠 Developed for educational use, exploration, and collaboration in the Stacks ecosystem. Connect, deploy, and contribute 🚀
+This project is licensed under the **MIT License**.
