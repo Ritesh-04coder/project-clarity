@@ -84,9 +84,7 @@ ST8XXC6QZ6RJ390F7J7VZEX9S8Q3NF3E3K842BK3.token_clar
 ### 🌐 Block Explorer Links
 
 - **Testnet**: [View on Testnet Explorer](https://explorer.stacks.co/?chain=testnet)
-- **Mainnet**: [View on Mainnet Explorer](https://explorer.stacks.co/?chain=mainnet)
 
----
 
 ## 💻 Installation Instructions
 
