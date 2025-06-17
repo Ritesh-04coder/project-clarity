@@ -44,7 +44,7 @@ The goal of Simple Token is to provide a clean, minimalistic, yet powerful templ
 
 ---
 
-## 🌐 Live Frontend Demo
+## 🌐 Live Demo
 
 Access the front-end dApp here:  
 👉 **[Simple Token Web App](https://tokedapp.vercel.app/)**
