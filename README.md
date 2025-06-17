@@ -1,5 +1,5 @@
 
-# 🪙 Simple Token Transfer Contract
+# 🪙 Token Transfer Contract
 
 A Fungible Token Smart Contract on Stacks
 
