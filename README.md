@@ -34,7 +34,6 @@ The goal of Simple Token is to provide a clean, minimalistic, yet powerful templ
 
 * 🔁 Add automated token distribution mechanisms (e.g., airdrops or vesting)  
 * 🧾 Enable withdrawal of deposited STX  
-* 🔗 Integration with front-end dApps (React/Next.js UI)  
 * 🧪 CI/CD pipeline for automated contract testing and deployment  
 * 🔐 Role-based access control for multi-admin capabilities  
 * 🏛️ Governance features for decentralized decision making  
